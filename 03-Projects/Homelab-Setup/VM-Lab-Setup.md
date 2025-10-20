@@ -73,9 +73,49 @@ ipconfig | findstr "VMware"
 - Disk: 40 GB
 - NIC: VMnet2 (192.168.20.10)
 ***Services:***
-
+- dnf
+- hostnamectl
+- ping
+- systemctl
+- firewalld
 ### 3. AlmaLinux (Web-AlmaLinux) ✅
 ***Configuration:***
 - vCPU: 4
 - RAM: 2 GB
-- 
+- Disk: 40 GB
+- NIC: VMnet2 (192.168.20.11)
+***Services:***
+- dnf
+- hostnamectl
+- ping
+- systemctl
+- firewalld
+### 4. Windows Server 2022 (DC1-WindowsServer2022) ✅
+***Configuration:***
+- vCPU: 8
+- RAM: 4 GB
+- Disk: 60 GB
+- NIC: VMnet2 (192.168.20.50)
+***Services:***
+- Network Settings
+- Server Manager
+
+### 5. Windows Server 2025 (DC2-WindowsServer2025) ✅
+***Configuration:***
+- vCPU: 8
+- RAM: 4 GB
+- Disk: 60 GB
+- NIC: VMnet2 (192.168.20.51)
+***Services:***
+- Network Settings
+- Server Manager
+### 6. Kali (AW-Kali) ✅
+***Configuration:***
+- vCPU: 8
+- RAM: 3 GB
+- Disk: 50 GB
+- NIC: VMnet2 (192.168.20.100)
+### 7. Ubuntu (AW-Ubuntu) ✅
+***Configuration:***
+- vCPU: 
+- RAM:
