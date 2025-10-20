@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6d1d940eefa1d7e4",
+        "id": "cc9f7e92d9cbb327",
         "type": "tabs",
         "children": [
           {
-            "id": "322ae21776f24f52",
+            "id": "8ca7a3f25b58f9f0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a02693aca3400e21",
@@ -156,13 +157,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "81337de4780014a5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,7 +191,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "322ae21776f24f52",
+  "active": "8ca7a3f25b58f9f0",
   "lastOpenFiles": [
     "README.md",
     "00-Dashboard/Daily-Logs.md",
