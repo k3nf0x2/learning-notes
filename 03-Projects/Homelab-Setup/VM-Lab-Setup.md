@@ -99,7 +99,6 @@ ipconfig | findstr "VMware"
 ***Services:***
 - Network Settings
 - Server Manager
-
 ### 5. Windows Server 2025 (DC2-WindowsServer2025) ✅
 ***Configuration:***
 - vCPU: 8
@@ -117,5 +116,24 @@ ipconfig | findstr "VMware"
 - NIC: VMnet2 (192.168.20.100)
 ### 7. Ubuntu (AW-Ubuntu) ✅
 ***Configuration:***
-- vCPU: 
-- RAM:
+- vCPU: 8
+- RAM: 4 GB
+- Disk: 20 GB
+- NIC: VMnet2 (192.168.20.101)
+### 8. Windows 10 (AW-Windows10) ✅
+***Configuration:
+- VCPU: 8
+- RAM: 4 GB
+- Disk: 60 GB
+- NIC: VMnet2 (192.168.20.102)
+## 🧪Testing & Verification
+### Connectivity Tests
+```
+bash
+
+# From File Server
+ping -c 4 192.168.20.1   # Gateway ✅
+ping -c 4 192.168.20.11  # Web Server ✅
+ping -c 4 8.8.8.8        # Internet ✅
+ping
+```
