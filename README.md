@@ -20,3 +20,6 @@ See [Dashboard](00-Dashboard/Daily-Logs.md) for navigation.
 ---
 
 **Learning Method:** Zettelkasten + Active Recall + Project-Based Learning
+
+----
+ketan
