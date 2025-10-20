@@ -11,10 +11,14 @@
             "id": "f7097abcea2b54cc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "03-Projects/Homelab-Setup/VM-Lab-Setup.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "VM-Lab-Setup"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a02693aca3400e21",
@@ -166,9 +171,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "342a315143364144",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -193,6 +208,7 @@
   },
   "active": "f7097abcea2b54cc",
   "lastOpenFiles": [
+    "03-Projects/Homelab-Setup/VM-Lab-Setup.md",
     "README.md",
     "00-Dashboard/Daily-Logs.md",
     "08-Templates/Troubleshooting-Template.md",
