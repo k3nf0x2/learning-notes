@@ -42,6 +42,40 @@ VyOS Router (192.168.20.1) ← Gateway & NAT
 
 ---
 ## 🚀 Implementation Steps
-### Phase 1: Network Configuration ✅
+### Network Configuration ✅
 ### VMnet2 Setup:
+- Network: 192.168.20.0/24
+- Type: Host-only
+- DHCP: Disabled
+### Verification:
+```
+Powershell
+
+# On Windows host
+ipconfig | findstr "VMware"
+```
+## 💻 Virtual Machines Deployed
+### 1. VyOS Router (Portal-VyOS) ✅
+***Configuration:***
+- vCPU: 1
+- RAM: 1 GB
+- Disk: 2 GB
+- NIC1: VMnet2 (192.168.20.1)
+- NIC2: NAT (Internet)
+***Services:***
+- NAT/Masquerading
+- DNS Forwarding
+- Gateway
+### 2. AlmaLinux (File-AlmaLinux) ✅
+***Configuration:***
+- vCPU: 4
+- RAM: 2 GB
+- Disk: 40 GB
+- NIC: VMnet2 (192.168.20.10)
+***Services:***
+
+### 3. AlmaLinux (Web-AlmaLinux) ✅
+***Configuration:***
+- vCPU: 4
+- RAM: 2 GB
 - 
