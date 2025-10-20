@@ -9,10 +9,10 @@ tags:
   - foundation
 ---
 ----
-# 🖥️ VMware Homelab Infrastructure Setup
-## 🎯 Objective Build a complete virtualized lab environment for learning system administration and cybersecurity.
+# ***🖥️ VMware Homelab Infrastructure Setup***
+## ***🎯 Objective Build a complete virtualized lab environment for learning system administration and cybersecurity.***
 ---
-## 🏗️ Network Architecture ```
+## ***🏗️ Network Architecture*** ```
 ```
 Internet
 	↓ 
@@ -31,7 +31,7 @@ VyOS Router (192.168.20.1) ← Gateway & NAT
 		 └─> Win10 (192.168.20.102)
 ```
 ---
-## 📋 Bill of Materials
+## ***📋 Bill of Materials***
 
 | **Component**      | **Specification** | **Purpose**      |
 | :----------------- | ----------------- | ---------------- |
@@ -41,19 +41,20 @@ VyOS Router (192.168.20.1) ← Gateway & NAT
 | VMware Workstation | v17+              | Hypervisor       |
 
 ---
-## 🚀 Implementation Steps
-### Network Configuration ✅
-### VMnet2 Setup:
+## ***🚀 Implementation Steps***
+### ***Network Configuration*** ✅
+ ***VMnet2 Setup:***
 - Network: 192.168.20.0/24
 - Type: Host-only
 - DHCP: Disabled
-### Verification:
+***Verification:***
 ```
 Powershell
 
 # On Windows host
 ipconfig | findstr "VMware"
 ```
+---
 ## 💻 Virtual Machines Deployed
 ### 1. VyOS Router (Portal-VyOS) ✅
 ***Configuration:***
@@ -126,6 +127,7 @@ ipconfig | findstr "VMware"
 - RAM: 4 GB
 - Disk: 60 GB
 - NIC: VMnet2 (192.168.20.102)
+---
 ## 🧪Testing & Verification
 ### Connectivity Tests
 ```
@@ -135,5 +137,19 @@ bash
 ping -c 4 192.168.20.1   # Gateway ✅
 ping -c 4 192.168.20.11  # Web Server ✅
 ping -c 4 8.8.8.8        # Internet ✅
-ping
+ping -c 4 google.com     # DNS ✅
 ```
+### Results: 
+---
+
+| ***Test***             | ***Status*** | ***Notes***        |
+| ---------------------- | ------------ | ------------------ |
+| Gateway reachable      | ✅            | All VMs            |
+| Inter-VM communication | ✅            | Full connectivity  |
+| Internet access        | ✅            | Via NAT            |
+| DNS resolution         | ✅            | Via VyOS forwarder |
+
+---
+## ***🐛 Issues Encountered***
+### ***Issue 1 : VMs couldn't reach internet***
+### ***Problem:*** After VyOS setup, VMs has no internet
