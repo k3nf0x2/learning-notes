@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "2e89d3bff6832ebb",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d1d940eefa1d7e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "322ae21776f24f52",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9fc81c9c6a8303ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad2022610b9615cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2201159e10f41692",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f5be0ef984ca7785",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5a2b59254d8864d3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a02693aca3400e21",
+    "type": "split",
+    "children": [
+      {
+        "id": "32e3128acc6dada7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "942f8ef287dd1199",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00-Dashboard/Daily-Logs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Daily-Logs"
+            }
+          },
+          {
+            "id": "2828198acab5424c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00-Dashboard/Daily-Logs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Daily-Logs"
+            }
+          },
+          {
+            "id": "e6bada836dbd40ce",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fa0a882d9e6f9b7e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-Dashboard/Daily-Logs.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Daily-Logs"
+            }
+          },
+          {
+            "id": "9d439ce0c614610d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "322ae21776f24f52",
+  "lastOpenFiles": [
+    "README.md",
+    "00-Dashboard/Daily-Logs.md",
+    "08-Templates/Troubleshooting-Template.md",
+    "08-Templates/Project-Template.md",
+    "08-Templates/Learning-Note-Template.md",
+    "08-Templates/Daily-Note-Template.md",
+    "04-Interview-Prep/Behavioral-Questions.md",
+    "04-Interview-Prep/Questions-Cybersecurity.md",
+    "04-Interview-Prep/Questions-Windows.md",
+    "04-Interview-Prep/Questions-Linux.md",
+    "05-Resources/Useful-Commands.md",
+    "05-Resources/Documentation.md",
+    "05-Resources/Courses.md",
+    "05-Resources/Books.md",
+    "07-Lab-Documentation/Error-Solutions.md",
+    "07-Lab-Documentation/Troubleshooting-Log.md",
+    "07-Lab-Documentation/Configurations.md",
+    "07-Lab-Documentation/Commands-Run.md",
+    "00-Dashboard/Weekly-Review-Template.md",
+    "08-Templates",
+    "07-Lab-Documentation",
+    "06-Daily-Notes",
+    "05-Resources",
+    "04-Interview-Prep",
+    "03-Projects/Active-Directory",
+    "03-Projects/LAMP-Stack",
+    "03-Projects/Homelab-Setup",
+    "02-Concepts/MOCs",
+    "02-Concepts/Atomic-Notes",
+    "00-Dashboard/Master-Progress-Tracker.md",
+    "Welcome.md"
+  ]
+}
