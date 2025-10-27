@@ -151,5 +151,56 @@ ping -c 4 google.com     # DNS ✅
 
 ---
 ## ***🐛 Issues Encountered***
-### ***Issue 1 : VMs couldn't reach internet***
-### ***Problem:*** After VyOS setup, VMs has no internet
+### **Issue 1 : VMs couldn't reach internet**
+### **Problem:** After VyOS setup, VMs has no internet
+### **Diagnosis**:
+```
+bash
+
+# Checked routing
+ip route show
+
+# Found No NAT rule configured
+```
+### **Solution**:
+```
+bash
+
+set nat source rule 100 outbound-interface 'eth1'
+set nat source rule 100 source address '192.168.20.0/24'
+set nat source rule 100 translation address 'masquerade'
+commit
+save
+```
+**Result:** ✅ Internet access restored
+## 🎓What I Learned
+**Technical Skills:** 
+- VMware network configuration
+- VyOS router setup
+- NAT and routing concepts
+- Systematic troubleshooting
+
+**Soft Skills:**
+- Project planning and documentation
+- Problem-solving methodology
+- Attention to detail
+
+**Interview Point:**
+- "I built a multi-VM lab environment with custom networking"
+- "Implemented NAT routing using VyOS"
+- "Systematically troubleshoot connectivity issues"
+
+## 🔗Related Notes
+- [[VyOS Configuration Guide]]
+- [[VMware Networking Concepts]]
+- [[Troubleshooting Network Issues]]
+
+## 📷 Screenshots
+![[vmware-network-config.png]] ![[vyos-interface-config.png]] ![[connectivity-test-results.png]]
+## 📚 Resources Used
+- VyOS Documentation: https://doc.vyos.io
+- VMware Networking Guide: https://docs.vmware.com
+- My troubleshooting process: [[Network-Troubleshooting-Methodology]]
+
+## 🎤 Elevator Pitch (30 seconds)
+"I designed and built"
