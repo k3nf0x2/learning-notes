@@ -6,5 +6,6 @@
   "obsidian-git",
   "obsidian-kanban",
   "obsidian-mind-map",
-  "templater-obsidian"
+  "templater-obsidian",
+  "note-metrics"
 ]
