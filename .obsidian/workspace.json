@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Dashboard/Day-0-Achievement.md",
+                "file": "05-Resources/Free-Learning-Resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day-0-Achievement"
+              "title": "Free-Learning-Resources"
             }
           }
         ]
@@ -209,6 +209,7 @@
   "active": "58de390f3c4fd74c",
   "lastOpenFiles": [
     "00-Dashboard/Day-0-Achievement.md",
+    "05-Resources/Free-Learning-Resources.md",
     "00-Dashboard/Motivation-Quotes.md",
     "08-Templates/Daily-Metrics-to-Track-Template.md",
     "08-Templates/Daily-Note-Template.md",
@@ -242,7 +243,6 @@
     "03-Projects/Homelab-Setup",
     "02-Concepts/MOCs",
     "02-Concepts/Atomic-Notes",
-    "00-Dashboard/Master-Progress-Tracker.md",
-    "Welcome.md"
+    "00-Dashboard/Master-Progress-Tracker.md"
   ]
 }
