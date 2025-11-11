@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4fc4892bcdabca40",
+        "id": "75b2d7aa3e18d30c",
         "type": "tabs",
         "children": [
           {
-            "id": "c4cdc4c3e325b53c",
+            "id": "d4f9a35ff8abb347",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Learning-Path/Linux-Administration/BIND9-Overview.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "BIND9-Overview"
+              "title": "New tab"
             }
           }
         ]
@@ -206,10 +202,10 @@
       "note-metrics:Daily note dashboard": false
     }
   },
-  "active": "2201159e10f41692",
+  "active": "d4f9a35ff8abb347",
   "lastOpenFiles": [
-    "01-Learning-Path/Linux-Administration/BIND9-Overview.md",
     "06-Daily-Notes/2025-11-11.md",
+    "01-Learning-Path/Linux-Administration/BIND9-Overview.md",
     "06-Daily-Notes/11-11-25.md",
     "01-Learning-Path/Linux-Administration/DNS-Fundamentals.md",
     "Troubleshooting-DNS.md",
