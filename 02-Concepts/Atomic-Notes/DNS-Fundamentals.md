@@ -42,9 +42,10 @@ DNS is **hierarchical** and **distributed**:
         |               |               |
     ┌───┴───┐       ┌───┴───┐       
     |       |       |       |
-  google  amazon  wikipedia
-    |
-   www
+  google  amazon  wikipedia |
+    |       |              ietf
+    |       |
+   www     aws
 ```
 
 **Levels:**
