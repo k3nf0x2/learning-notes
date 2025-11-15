@@ -40,10 +40,10 @@ DNS is **hierarchical** and **distributed**:
         |               |               |
        .com           .org            .net
         |               |               |
-    ┌───┴───┐       ┌───┴───┐       
-    |       |       |       |
-  google  amazon  wikipedia |
-    |       |              ietf
+    ┌───┴───┐       ┌───┴───┐           |
+    |       |       |       |       ┌───┴───┐
+  google  amazon  wikipedia |       |       |
+    |       |              ietf  netflix  cloudflare
     |       |
    www     aws
 ```
