@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "BIND-named-conf-Structure"
             }
-          },
-          {
-            "id": "6c5859e157fe226d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,7 +206,7 @@
       "note-metrics:Daily note dashboard": false
     }
   },
-  "active": "6c5859e157fe226d",
+  "active": "d4f9a35ff8abb347",
   "lastOpenFiles": [
     "02-Concepts/Atomic-Notes/DNS/DNS-Fundamentals.md",
     "02-Concepts/Atomic-Notes/BIND9/BIND-named-conf-Structure.md",
